@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Product, type: :model do
-  it 'validates new product object' do
-    product =  Product.new
-    expect(product.valid?).to eq true
+  describe 'validations' do
+    it { should validate_presence_of(:title) }
+    it { should validate_presence_of(:description) }
   end
 end
