@@ -31,6 +31,7 @@ group :test do
   gem 'capybara', '~> 3.33'
   gem 'shoulda-matchers', '~> 4.3'
   gem 'simplecov', '~> 0.19.0', require: false
+  gem 'database_cleaner-active_record'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
