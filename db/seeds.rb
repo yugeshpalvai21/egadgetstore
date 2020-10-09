@@ -14,3 +14,8 @@ Country.create([
 ])
 
 
+Product.create({name: 'mobile', price: 120.123 })
+Product.create({name: 'computer', price: 500.123 })
+Product.create({name: 'tablet', price: 50.123 })
+Product.create({name: 'camara', price: 450.123 })
+Product.create({name: 'laptop', price: 110.123 })
