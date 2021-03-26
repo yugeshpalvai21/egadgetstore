@@ -1,15 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-
-5.times { |num| Category.create(name: "Category #{num}") }
-
-puts "5 Categories Created.."
-
-20.times { |num| Product.create(name: "Product #{num}", price: "#{rand(11..999)}.#{rand(10..99)}", category_id: rand(1..5)) }
-
-puts "20 Products Created..."
+Album.create(name: "Sgt. Pepper's Lonely Hearts Club Band", released_year: 1967)
+Album.create(name: "Pet Sounds", released_year: 1966)
+Album.create(name: "Revolver", released_year: 1966)
+Album.create(name: "Highway 61 Revisited", released_year: 1965)
+Album.create(name: "Rubber Soul", released_year: 1965)
+Album.create(name: "What's Going On", released_year: 1971)
+Album.create(name: "Exile on Main St.", released_year: 1972)
+Album.create(name: "London Calling", released_year: 1979)
+Album.create(name: "Blonde on Blonde", released_year: 1966)
+Album.create(name: "The Beatles", released_year: 1968)
