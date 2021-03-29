@@ -1,24 +1,25 @@
-# README
+### EGADGETSTORE - A E-Comm Application Build With Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Features
 
-Things you may want to cover:
+- Products
+- Categories
+- Cart
+- LineItem
+- Order
+- User Roles
+  - Buyer
+  - Seller
+  - Admin
 
-* Ruby version
+### Focused Topics
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Authentication
+- Roles
+- Autherization
+- OAuth
+- Payment Instegration
+- Test Setup
+- Server Deployment
+- Automations
+- Background Jobs
